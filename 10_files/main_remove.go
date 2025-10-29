@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	err := os.Remove("example.txt")
+	err := os.Remove("sourcefile.txt")
 	if err != nil {
 		fmt.Println(err)
 		return

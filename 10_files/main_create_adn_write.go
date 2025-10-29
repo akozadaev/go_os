@@ -7,7 +7,8 @@ import (
 
 func main() {
 	// Создание или открытие файла для записи
-	file, err := os.Create("example.txt")
+	file, err := os.Create("example.txt") // os.CreateTemp()
+	//file, err := os.Create("example.txt") // os.CreateTemp()
 	if err != nil {
 		fmt.Println(err)
 		return

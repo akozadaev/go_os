@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	err := os.Rename("oldfile.txt", "newfile.txt")
+	err := os.Rename("tmp4247572260", "example.txt")
 	if err != nil {
 		fmt.Println(err)
 		return

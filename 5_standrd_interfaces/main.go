@@ -25,8 +25,10 @@ func main() {
 	} else {
 		fmt.Println("This reader does not need to be closed")
 	}
+
 	example()
 }
+
 func example() {
 	file, err := os.Open("example.txt")
 	if err != nil {
